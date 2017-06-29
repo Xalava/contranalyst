@@ -262,7 +262,10 @@ svg {
 
 .landing {
     background-image: url(../images/contract.jpg) !important;
-    height: 89vh
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 99vh
 }
 
 .maintext{
@@ -281,6 +284,15 @@ svg {
 }
 
 .definition {
-    background: #EAEAEA;
+    background: white;
     padding:8%;
+}
+
+.imagesection {
+    background: white;
+}
+
+.btn-lower {
+    background-color: rgba(20, 20, 20, 0.5);
+    color: #CCC;
 }
