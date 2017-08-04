@@ -84,25 +84,44 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li class="">
-                        <img src="images/add.svg" width="30em" class="pull-right">
+                        <!-- <img src="images/add.svg" width="30em" class="pull-right"> -->
                     </li>
                     <li class="">
                     </li>
                     <li class="active">
-                        <a href="contracts.html"> BigHand - 23-12-2015</a>
+                        <a href="contracts.html?contract=A"> Contract A</a>
                     </li>
                     <li>
-                        <a href="contracts.html"> STP - 12-06-2013</a>
+                        <a href="contracts.html?contract=B"> Contract B</a>
                     </li>
                     <li>
-                        <a href="contracts.html"> Sync Group - 02-06-2012</a>
+                        <a href="contracts.html?contract=C"> Contract C</a>
                     </li>
                     <li>
-                        <a href="contracts.html"> Ottoschmidt - 13-04-2016</a>
+                        <a href="contracts.html?contract=D"> Condract D</a>
                     </li>
                     <li>
-                        <a href="contracts.html"> Consilio - 13-04-2014</a>
+                        <a href="contracts.html?contract=E"> Contract E</a>
                     </li>
+                    <li>
+                        <a href="contracts.html?contract=F"> Contract F</a>
+                    </li>
+                    <li>
+                        <a href="">  </a>
+                    </li>
+                    <li >
+                        <a class="effective" href="#">Effective Date</a>
+                    </li>
+                    <li >
+                       <a class="termination" href="#">Termination Clause</a>
+                    </li>
+                    <li >
+                       <a class="mark-info" href="#">Need to mark information</a>
+                    </li>
+                    <li >
+                        <a class="law" href="#">Applicable Law</a>
+                    </li>
+
 
                 </ul>
             </div>
@@ -113,17 +132,25 @@
 
             <div class="container">
 
+
                 <!-- Page Heading -->
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header text-center">
-                            BigHand <small>Flight Forum 40 Ground floor 5657 DB, Eindhoven</small>
+                            <span id="title-content"></span>
+<!--                             <div id="app">
+                                <h1 v-if="">
+                                  Number of paragraphs {{ contract.paragraphs.length }}
+                                </h1>
+                                <pre>contract: {{ contract }}</pre>
+                            </div> -->
+                            <!-- BigHand <small>Flight Forum 40 Ground floor 5657 DB, Eindhoven</small> -->
                         </h1>
 
                     </div>
                 </div>
 
-                <div class="row">
+<!--                 <div class="row">
                     <div class="jumbotron" style="padding-top: 1em;padding-bottom: 4em">
                         <div class="col-xs-4">
                             <div class="col-xs-4">
@@ -135,18 +162,17 @@
                             </h3>
                             </div>
                         </div>
-<!--                         <div class="col-xs-4">
-                            <div class="col-xs-4"><img src="images/sqm.svg" class="img-responsive" width="40em"></div><div class="col-xs-8"> <h3>155</h3></div>
-                        </div>
-                        <div class="col-xs-4">
-                            <div class="col-xs-4"><img src="images/amount.svg" class="img-responsive" width="40em"></div><div class="col-xs-8">  <h3>1750</h3></div>
-                        </div> -->
+
                     </div>
-                </div>
+                </div> -->
 
                 <!-- /.row -->
 
-                <div class="row">
+                <div id="main-content"></div>
+
+
+
+  <!--               <div class="row">
                     <div class="col-lg-12">
                         <div class="panel panel-default animated slideInUp  ">
                             <div class="panel-heading">
@@ -157,9 +183,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- /.row -->
-                <div class="row">
+                </div> -->
+                <!-- /.row
+                <!-- <div class="row">
                     <div class="col-lg-12">
                         <div class="panel panel-danger  animated slideInUp  ">
                             <div class="panel-heading">
@@ -170,9 +196,9 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- /.row -->
-         
+<!--          
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="panel panel-default animated slideInUp  ">
@@ -183,10 +209,10 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.                            </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- /.row -->
 
-                <div class="row">
+<!--                 <div class="row">
                     <div class="col-lg-12">
                         <div class="panel panel-default animated slideInUp  ">
                             <div class="panel-heading">
@@ -197,7 +223,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --> 
                 <!-- /.row -->
 
 
@@ -223,14 +249,19 @@ According to German Civil Code
 
     </div>
     <!-- /#wrapper -->
+    <!-- Vuejs -->
+    <!-- <script src="https://unpkg.com/vue"></script> -->
+
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
-
+<!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
+ -->
+    <script src="js/contract.js"></script>
 
 <!-- Trigger the modal with a button -->
 

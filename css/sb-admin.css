@@ -296,3 +296,35 @@ svg {
     background-color: rgba(20, 20, 20, 0.5);
     color: #CCC;
 }
+
+
+/*clauses*/
+.clause{
+    /*color:white;*/
+    font-weight: bold;
+
+}
+.effective {
+    color: orange !important;
+    text-shadow: 0.4px 0.4px 1px rgba(130,130,130,0.5) !important;
+}
+
+
+.termination {
+    color: gray !important;
+    text-shadow: 0.4px 0.4px 1px rgba(130,130,130,0.5) !important;
+
+}
+
+.mark-info {
+    color: blue !important;
+    text-shadow: 0.4px 0.4px 1px rgba(130,130,130,0.5) !important;
+
+}
+
+
+.law {
+    color: violet !important;
+    text-shadow: 0.4px 0.4px 1px rgba(130,130,130,0.5) !important;
+
+}
