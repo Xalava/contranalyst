@@ -1,0 +1,54 @@
+// Styling for the masthead
+header.masthead {
+    text-align: center;
+    color: white;
+    background: $theme-success;
+    background-image: url(../img/contract-light.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    min-height: 90vh;
+    // filter: blur(5px);
+    text-shadow: 1px 1px 2px $gray;
+
+    .container {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    img {
+        display: block;
+        margin: 0 auto 20px;
+    }
+    .intro-text {
+        .name {
+            font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 2em;
+            font-weight: 700;
+            display: block;
+            text-transform: uppercase;
+        }
+        .skills {
+            font-size: 1.25em;
+            font-weight: 300;
+            color: $gray-dark
+        }
+    }
+}
+
+@media(min-width:768px) {
+    header.masthead {
+        .container {
+            padding-top: 200px;
+            padding-bottom: 100px;
+        }
+        .intro-text {
+            .name {
+                font-size: 4.75em;
+            }
+            .skills {
+                font-size: 1.75em;
+            }
+        }
+    }
+}
