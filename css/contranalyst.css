@@ -29,7 +29,8 @@ h5,
 h6 {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 1em; }
 
 hr.star-light,
 hr.star-primary {
@@ -100,6 +101,9 @@ section.success {
     .scroll-top .btn:focus {
       outline: none; }
 
+.rouge {
+  color: #EF2F44; }
+
 #mainNav {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -164,7 +168,6 @@ section.success {
 header.masthead {
   text-align: center;
   color: white;
-  background: #EF2F44;
   background-image: url(../img/contract-light.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
